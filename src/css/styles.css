@@ -13,15 +13,29 @@ body {
 }
 
 #search-box {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+        
   font: inherit;
+  font-size: 40;
   padding: 8px;
-  max-width: 320px;
-  margin-bottom: 16px;
+  max-width: 620px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  border-radius: 15px;
 }
 
-ul {
-  list-style: none;
+ul {  
+  margin-left: 220px;
   padding-left: 0px;
+  font-size: xxx-large;
+  list-style: none;
+}
+
+.country-info {
+  margin-left: 590px;
+  font-size: xxx-large;
 }
 
 .country-item {
@@ -51,3 +65,23 @@ ul {
 span {
   font-weight: 700;
 }
+
+.one-card {
+  border-color: rgb(123, 255, 14);
+  outline: 0;
+  outline-offset: 0
+}
+
+.several-cards {
+  border-color: rgb(137, 214, 245);
+  outline: 0;
+  outline-offset: 0
+}
+
+.none-cards {
+  border-color: rgb(253, 0, 0);
+  outline: 0;
+  outline-offset: 0
+}
+
+
